@@ -37,7 +37,11 @@ module.exports.routes = {
   },
   'post /auth/signin' :'AuthController.signin',
   'post /auth/signout' :'AuthController.signup',
-  'get /user/me' : 'UserController.me'
+
+  'get /user/me' : 'UserController.me',
+  // 'post /isAuth' : 'AuthController.isAuth'
+
+  // 'post /camera' : 'CameraController.createCamera'
   /***************************************************************************
   *                                                                          *
   * Custom routes here...                                                    *

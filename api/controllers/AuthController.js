@@ -41,6 +41,22 @@ module.exports = {
             })
             .then(res.created)
             .catch(res.serverError)
-    }
+    },
+    // isAuth: function (req, res){
+    //   var tokenFront = req.param('token');
+    //   var idFront = req.param('id');
+    //   User.findOne({id:idFront},function(err,user){
+    //     if (tokenFront == user.token) {
+    //       console.log('is connected !');
+    //       return res.ok();
+    //     } else {
+    //       console.log('ALERT Wrong user !');
+    //       console.log(tokenFront);
+    //       console.log(user.token); /* Le token n'est pas dans la bdd, le stocker si il faut que la fonction marche */
+    //       return res.ok();
+    //     }
+    //   });
+    //
+    // }
 
 };

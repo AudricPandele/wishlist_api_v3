@@ -13,6 +13,9 @@ module.exports = {
       unique: true,
       required: true
     },
+    modele: {
+      type: 'text'
+    }
 
   }
 };

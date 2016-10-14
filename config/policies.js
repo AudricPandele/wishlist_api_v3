@@ -22,5 +22,8 @@ module.exports.policies = {
   AuthController: {
     '*': true
   },
+  CameraController: {
+    createCamera: []
+  },
   'createCamera' : ['isAdmin']
 };

@@ -10,5 +10,23 @@ module.exports = {
 		return res.ok ({
 				user: req.user
 		})
-	}
+	},
+
+	// getUser : function (req,res) {
+	// 	User.findOne({
+	// 		id : req.param('user_id')
+	// 	 })
+	// 	.exec(function(err, user){
+	// 		res.ok({
+	// 			user
+	// 		})
+	// 	})
+	// },
+
+	// getUsers : function (req, res) {
+	// 	User.find().exec(function(err, user){
+	// 		res.ok({user})
+	// 	})
+	// },
+
 };
