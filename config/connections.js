@@ -79,11 +79,7 @@ module.exports.connections = {
     host: 'localhost',
     user: 'role_iot', // optional
     password: 'teamiot', // optional
-<<<<<<< HEAD
     database: 'camera-iot' //optional
-=======
-    database: 'camera_iot' //optional
->>>>>>> 5b50d09805c820a9f95cff11ec78b024c6076645
   }
 
 
