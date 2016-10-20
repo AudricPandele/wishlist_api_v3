@@ -20,13 +20,15 @@
     "grunt-sync": "0.5.2",
     "include-all": "^1.0.0",
     "jsonwebtoken": "^7.1.9",
+    "mongodb": "^2.2.10",
     "passport": "",
     "passport-jwt": "^2.1.0",
     "passport-local": "^1.0.0",
     "rc": "1.0.1",
     "sails": "~0.12.7",
     "sails-disk": "~0.10.9",
-    "sails-hook-autoreload": "^0.13.2"
+    "sails-hook-autoreload": "^0.13.2",
+    "sails-mongo": "^0.12.1"
   },
   "scripts": {
     "debug": "node debug app.js",
