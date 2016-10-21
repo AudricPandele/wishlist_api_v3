@@ -39,6 +39,7 @@ module.exports.routes = {
   'post /auth/signout' :'AuthController.signup',
 
   'get /user/me' : 'UserController.me',
+  'get /user/cameras' : 'UserRoleCamera.getUserCameras'
   // 'post /isAuth' : 'AuthController.isAuth'
 
   // 'post /camera' : 'CameraController.createCamera'
