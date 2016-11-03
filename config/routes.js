@@ -41,7 +41,7 @@ module.exports.routes = {
   'get /user/me' : 'UserController.me',
   // 'post /isAuth' : 'AuthController.isAuth'
 
-  // 'post /camera' : 'CameraController.createCamera'
+  'post /camera' : 'CameraController.createCamera'
   /***************************************************************************
   *                                                                          *
   * Custom routes here...                                                    *
