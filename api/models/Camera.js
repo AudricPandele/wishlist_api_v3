@@ -15,6 +15,9 @@ module.exports = {
     },
     modele: {
       type: 'text'
+    },
+    position: {
+      type: 'integer'
     }
 
   }
