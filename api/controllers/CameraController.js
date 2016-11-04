@@ -6,11 +6,11 @@
  */
 
 module.exports = {
-		createCamera: function (req, res) {
-			Camera.create({identifier: req.param('identifier'), modele: req.param('modele')})
-				.exec(function(err, camera) {
-					Camera.publishCreate(camera, req);
-					res.ok(camera);
-			})
-		}
+	createCamera: function (req, res) {
+		Camera.create({identifier: req.param('identifier'), modele: req.param('modele'), position: req.param('position')})
+			.exec(function(err, camera) {
+				Camera.publishCreate(camera, req);
+				res.ok(camera);
+		})
+	}
 };

@@ -9,16 +9,15 @@ module.exports = {
 
   attributes: {
     identifier: {
-      type: 'text',
-      unique: true,
-      required: true
+      type: 'string',
+      required: true,
+      unique: true
     },
     modele: {
-      type: 'text'
+      type: 'string'
     },
     position: {
       type: 'integer'
     }
-
   }
 };
