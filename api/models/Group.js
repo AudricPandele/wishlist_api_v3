@@ -17,6 +17,10 @@ module.exports = {
     },
     place : {
       type : 'string'
-    }
+    },
+    users: {
+      collection : 'camera',
+      via : 'identifier'
+    },
   }
 };

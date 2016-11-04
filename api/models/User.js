@@ -32,6 +32,10 @@ module.exports = {
             type: 'string',
             defaultsTo: ''
         },
+        group: {
+            model: 'group',
+            required: true
+        },
 
         toJSON: function () {
             var obj = this.toObject();

@@ -22,6 +22,9 @@ module.exports.policies = {
   AuthController: {
     '*': true
   },
+  GroupController: {
+    '*': true
+  },
   CameraController: {
     createCamera: []
   },
