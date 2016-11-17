@@ -18,6 +18,10 @@ module.exports = {
     },
     position: {
       type: 'integer'
+    },
+    group:{
+      model: 'group',
+      required: true
     }
   }
 };

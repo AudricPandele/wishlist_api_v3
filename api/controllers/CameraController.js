@@ -7,7 +7,7 @@
 
 module.exports = {
 	createCamera: function (req, res) {
-		Camera.create({identifier: req.param('identifier'), modele: req.param('modele'), position: req.param('position')})
+		Camera.create({identifier: req.param('identifier'), modele: req.param('modele'), position: req.param('position'), group: req.param('group')})
 			.exec(function(err, camera) {
 				Camera.publishCreate(camera, req);
 				res.ok(camera);

@@ -15,10 +15,7 @@ module.exports = {
       collection : 'user',
       via : 'username'
     },
-    place : {
-      type : 'string'
-    },
-    users: {
+    cameras: {
       collection : 'camera',
       via : 'identifier'
     },
