@@ -42,7 +42,6 @@ module.exports.routes = {
   'get /user/cameras' : 'UserRoleCamera.getUserCameras',
   // 'post /isAuth' : 'AuthController.isAuth'
 
-  'post /camera' : 'CameraController.createCamera'
   /***************************************************************************
   *                                                                          *
   * Custom routes here...                                                    *

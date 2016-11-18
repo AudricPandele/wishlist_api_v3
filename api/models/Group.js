@@ -13,11 +13,11 @@ module.exports = {
     },
     users: {
       collection : 'user',
-      via : 'username'
+      via : 'group'
     },
     cameras: {
       collection : 'camera',
-      via : 'identifier'
+      via : 'group'
     },
   }
 };
