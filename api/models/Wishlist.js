@@ -1,5 +1,5 @@
 /**
- * Group.js
+ * Wishlist.js
  *
  * @description :: TODO: You might write a short summary of how this model works and what it represents here.
  * @docs        :: http://sailsjs.org/documentation/concepts/models-and-orm/models
@@ -8,16 +8,20 @@
 module.exports = {
 
   attributes: {
-    groupName : {
-      type : 'string'
+    title: {
+      type: 'string',
+      required: true
     },
-    users: {
-      collection : 'user',
-      via : 'group'
+    description: {
+      type: 'string'
     },
-    cameras: {
-      collection : 'camera',
-      via : 'group'
+    owner:{
+      model: 'user',
+      required: true
     },
+    wishlistLinks:{
+      collection: 'wishlistLink',
+      via: 'wishlist'
+    }
   }
 };

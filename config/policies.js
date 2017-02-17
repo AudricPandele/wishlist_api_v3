@@ -21,12 +21,5 @@ module.exports.policies = {
   '*' : ['isAuthenticated'],
   AuthController: {
     '*': true
-  },
-  GroupController: {
-    '*': true
-  },
-  CameraController: {
-    createCamera: []
-  },
-  'createCamera' : ['isAdmin']
+  }
 };

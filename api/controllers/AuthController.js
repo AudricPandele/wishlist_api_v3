@@ -10,8 +10,8 @@ var passport = require ('passport');
 
 function onPassportAuth(req, res, error, user, info)
 {
-    if(error) return res.serverError(error);
-    if(!user) return res.unauthorized(null,info);
+    if (error) return res.serverError(error);
+    if (!user) return res.serverError(error);
 
     return res.ok (
         {

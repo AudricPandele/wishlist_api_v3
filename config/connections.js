@@ -60,9 +60,9 @@ module.exports.connections = {
     adapter: 'sails-mongo',
     host: 'localhost',
     port: 27017,
-    user: '', //optional
+    user: 'audric', //optional
     password: '', //optional
-    database: 'camera_iot' //optional
+    database: 'wishlist_api_v2' //optional
   },
 
   /***************************************************************************

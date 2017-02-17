@@ -5,6 +5,7 @@
   "description": "a Sails application",
   "keywords": [],
   "dependencies": {
+    "cheerio": "^0.22.0",
     "ejs": "2.3.4",
     "grunt": "1.0.1",
     "grunt-contrib-clean": "1.0.0",
@@ -18,17 +19,22 @@
     "grunt-contrib-watch": "1.0.0",
     "grunt-sails-linker": "~0.10.1",
     "grunt-sync": "0.5.2",
+    "image-scraper": "^0.2.0",
     "include-all": "^1.0.0",
     "jsonwebtoken": "^7.1.9",
+    "minimal-metainspector": "^1.1.1",
     "mongodb": "^2.2.10",
     "passport": "",
     "passport-jwt": "^2.1.0",
     "passport-local": "^1.0.0",
     "rc": "1.0.1",
+    "rsvp": "^3.3.3",
     "sails": "~0.12.7",
     "sails-disk": "~0.10.9",
     "sails-hook-autoreload": "^0.13.2",
-    "sails-mongo": "^0.12.1"
+    "sails-mongo": "^0.12.1",
+    "tinyreq": "^3.1.4",
+    "x-ray": "^2.3.1"
   },
   "scripts": {
     "debug": "node debug app.js",

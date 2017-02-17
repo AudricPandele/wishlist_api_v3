@@ -9,12 +9,6 @@ module.exports = {
     schema: true,
 
     attributes: {
-        username: {
-            type: 'string',
-            required: true,
-            unique: true,
-            alphanumericdashed: true
-        },
         email: {
             type: 'email',
             required: true,
@@ -24,17 +18,9 @@ module.exports = {
             type: 'string',
             required: true,
         },
-        firstName: {
-            type: 'string',
-            defaultsTo: ''
-        },
-        lastName: {
-            type: 'string',
-            defaultsTo: ''
-        },
-        group: {
-            model: 'group',
-            required: true
+        wishlists:{
+            collection: 'wishlist',
+            via: 'owner'
         },
 
         toJSON: function () {
