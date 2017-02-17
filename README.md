@@ -1,9 +1,4 @@
-# camera_iot
+# wishlist_api-V3
 
 ### Team:
-Viguier Christophe,
-Brethes Pierre,
-Pandelé Audric,
-Elankumaran Thrasan,
-Basse Jules,
-Ospital Antoine
+Pandelé Audric
